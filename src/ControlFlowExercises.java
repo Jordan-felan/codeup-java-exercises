@@ -4,14 +4,13 @@ public class ControlFlowExercises {
     public static void main(String[] args) {
 //        int i = 5;
 //        while(i <= 15) {
-//            if(i == 5){
-//                System.out.println(i);
-//                i++;
-//            } else {
+//            if(i < 15){
+//                System.out.print(i + " ");
 //
+//            } else {
 //                System.out.println(i);
-//                i++;
 //            }
+//            i++;
 //        }
 
 //        int n = 5;
@@ -26,17 +25,14 @@ public class ControlFlowExercises {
 //        long i = 2;
 //
 //        do {
-//            if(i == 2){
-//                System.out.println(i);
-//            }
-//
-//            System.out.println(i *= i);
+//            System.out.println(i);
+//            i *= i;
 //
 //        } while(i < 1000000);
 
         //refactored loops above into for loops
 
-//        for(int i = 100; i > -10; i-=5){
+//        for(int i = 100; i >= -10; i-=5){
 //            System.out.println(i);
 //        }
 //
@@ -60,20 +56,33 @@ public class ControlFlowExercises {
 //            }
 //        }
 
-        System.out.println("What number would ypu like to go to?");
-            int integerNext = Integer.parseInt(scanner.next());
-
-        for (int i = 1; i <= integerNext; i++) {
-            int numberSquared = (int) Math.pow(i, 2);
-            int numberCubed = (int) Math.pow(i, 3);
-            if(i == 1) {
-                String table = "number" + " | " + "squared" + " | " + "cubed";
-                System.out.println(table);
-            }
-            String message = "\n" + i + "       " + numberSquared + "       " + numberCubed;
-            System.out.print(message);
-
-        }
+//        System.out.println("What number would you like to go to?");
+//            int integerNext = scanner.nextInt();
+//
+//        for (int i = 1; i <= integerNext; i++) {
+//            int numberSquared = (int) Math.pow(i, 2);
+//            int numberCubed = (int) Math.pow(i, 3);
+//            if(i == 1) {
+//                String table = "number" + " | " + "squared" + " | " + "cubed";
+//                System.out.println(table);
+//            }
+//            String message = "\n" + i + "       " + numberSquared + "       " + numberCubed;
+//            System.out.print(message);
+//
+//        }
+//        do{
+//            System.out.println("What number would you like to go up to?");
+//            int userInput = scanner.nextInt();
+//            System.out.printf("Here is your table!%n");
+//            System.out.printf("number  |  squared |  cubed%n------  | ------   | -----%n ");
+//            for(int i = 1; i <= userInput; i++){
+//                int squared = i * i;
+//                int cubed = i * i * i;
+//                System.out.printf("%d       | %d        | %d%n", i, squared,cubed);
+//            }
+//            System.out.println("Would you like to continue? Yes/No");
+//
+//        } while(scanner.next().toLowerCase().equals("yes"));
 
 // see if the user wants to continue
 //        System.out.print("\nContinue? (y/n): ");
@@ -82,7 +91,7 @@ public class ControlFlowExercises {
 
 
 
-
+//
         for (int i = 1; i <= 10; i++) {
             System.out.println("\nEnter numerical grade:");
             int integerGrade = Integer.parseInt(scanner.next());
@@ -125,7 +134,7 @@ public class ControlFlowExercises {
 
 
         }
-
+//
 
 
 
