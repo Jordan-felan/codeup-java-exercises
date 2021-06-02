@@ -23,7 +23,7 @@ public class Input {
             result = true;
         } else if(userYesNo.equalsIgnoreCase("y")){
             result = true;
-        } else if(userYesNo.equalsIgnoreCase("no")){
+        } else {
             result = false;
         }
         System.out.println("Your boolean is: " + result );

@@ -15,12 +15,12 @@ public class Circle {
         this.radius = r;
     }
 
-    public void setRadius(double r) {
-        radius = r;
-    }
-    public double getRadius() {
-        return radius;
-    }
+//    public void setRadius(double r) {
+//        radius = r;
+//    }
+//    public double getRadius() {
+//        return radius;
+//    }
 
 
     public double getDiameter() {
