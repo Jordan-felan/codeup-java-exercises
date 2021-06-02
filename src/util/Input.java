@@ -21,6 +21,8 @@ public class Input {
         boolean result = false;
         if(userYesNo.equalsIgnoreCase("yes")){
             result = true;
+        } else if(userYesNo.equalsIgnoreCase("y")){
+            result = true;
         } else if(userYesNo.equalsIgnoreCase("no")){
             result = false;
         }
@@ -41,7 +43,6 @@ public class Input {
     }
 
     public int getInt(){
-        scanner.nextLine();
         System.out.println("Please enter a number");
         int userNum = scanner.nextInt();
         return userNum;
