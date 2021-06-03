@@ -7,6 +7,7 @@ public class CircleApp {
 
     public static void main(String[] args) {
         Input input2 = new Input();
+
         System.out.println("Give me a radius!");
         Circle circle2 = new Circle(input2.getDouble());
 //        double radius = input2.getDouble();

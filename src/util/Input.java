@@ -33,7 +33,7 @@ public class Input {
     public int getInt(int min, int max){
         System.out.printf("Please enter a number between %d and %d.%n", min, max);
         int userNum = scanner.nextInt();
-        if(userNum < min || userNum > max){
+        if(userNum <= min || userNum >= max){
             System.out.println("Oops, that wasnt within the range!");
             getInt(min, max);
         } else {
