@@ -1,6 +1,6 @@
 package Grocery;
 
-public class Item {
+
     public class Item {
         private String name;
         private int quantity;
@@ -39,4 +39,4 @@ public class Item {
             this.price = price;
         }
     }
-}
+
