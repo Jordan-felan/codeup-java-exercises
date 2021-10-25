@@ -69,5 +69,33 @@ public class PrimitiveTypes {
         long myLong = ((myByte + myShort + myInt) * 10 + 50000);
 
         System.out.println(myLong);
+
+
+        //FLOATING POINT NUMBERS
+
+        //theres float and double. float is a single precision number which occupies 32 bits where as a double is a double precision number which occupies 64 bits
+
+        //Float has a range from 1.4E-45 to 3.4028235E+38
+    //Double has a range from 4.9E-324 to 1.7976931348623157E+308
+
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float minimum value = " + myMinFloatValue);
+        System.out.println("Float maximum value = " + myMaxFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double minimum value = " + myMinDoubleValue);
+        System.out.println("Double maximum value = " + myMaxDoubleValue);
+
+        int myIntValue = 5;
+        float myFloatValue = (float) 5.25; // can use casting as well for these
+        double myDoubleValue = 5.25d;
+
+        System.out.println("MyIntValue = " + myIntValue);
+        System.out.println("MyFloatValue = " + myFloatValue);
+        System.out.println("MyDoubleValue = " + myDoubleValue);
+
+
     }
 }
