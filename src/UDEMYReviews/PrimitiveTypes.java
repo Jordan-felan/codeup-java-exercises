@@ -95,7 +95,7 @@ public class PrimitiveTypes {
         System.out.println("MyIntValue = " + myIntValue);
         System.out.println("MyFloatValue = " + myFloatValue);
         System.out.println("MyDoubleValue = " + myDoubleValue);
-
+        System.out.println("MyDoubleValue = " + myDoubleValue);
 
     }
 }
